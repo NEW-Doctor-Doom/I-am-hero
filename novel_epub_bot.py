@@ -84,13 +84,13 @@ from urllib import error, parse, request
 # ============================== CONFIG ==============================
 BOT_TOKEN = ""  # Render me Environment Variable BOT_TOKEN me daalo (yahan mat likho)
 ALLOWED_USERS = set()  # Render me Environment Variable ADMIN_ID me daalo (kai ID ho to comma se)
-WORKERS = 48  # ek JOB ke max ek saath chapters
-HOST_MAX = 128  # ek SITE par sab jobs milake max ek saath requests (alag site = alag limit)
+WORKERS = 45  # ek JOB ke max ek saath chapters
+HOST_MAX = 120  # ek SITE par sab jobs milake max ek saath requests (alag site = alag limit)
 MIN_WORKERS = 4  # block aane par bhi kam se kam itne chalenge
-MAX_JOBS_PER_CHAT = 10  # ek chat me ek saath max EPUB jobs
+MAX_JOBS_PER_CHAT = 8  # ek chat me ek saath max EPUB jobs
 MAX_JOBS_TOTAL = 10  # poore bot me ek saath max jobs
-MAX_BATCH_LINKS = 50  # ek saath kitne novel links queue me (ek-ek karke EPUB banti hain)
-MAX_CHAPTERS = 3000
+MAX_BATCH_LINKS = 100  # ek saath kitne novel links queue me (ek-ek karke EPUB banti hain)
+MAX_CHAPTERS = 5000
 MAX_PAGE_BYTES = 8 * 1024 * 1024
 TIMEOUT = 20  # ek request ka timeout (sec)
 RETRIES = 5  # ek page ke liye network retries
