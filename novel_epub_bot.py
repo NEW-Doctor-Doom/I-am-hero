@@ -102,13 +102,13 @@ from urllib import error, parse, request
 BOT_TOKEN = ""  # jaise "123456789:AAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ADMIN_ID = ""  # apna Telegram ID (bot me /myid bhejo to milta hai). Kai ID ho to comma se: "111,222"
 ALLOWED_USERS = {8049392574}  # ya yahan set me: {123456789}
-WORKERS = 45  # ek JOB ke max ek saath chapters
+WORKERS = 40  # ek JOB ke max ek saath chapters
 HOST_MAX = 120  # ek SITE par sab jobs milake max ek saath requests (alag site = alag limit)
 MIN_WORKERS = 4  # block aane par bhi kam se kam itne chalenge
 MAX_JOBS_PER_CHAT = 8  # ek chat me ek saath max EPUB jobs
 MAX_JOBS_TOTAL = 10  # poore bot me ek saath max jobs
 MAX_BATCH_LINKS = 50  # ek saath kitne novel links queue me (ek-ek karke EPUB banti hain)
-MAX_CHAPTERS = 5000
+MAX_CHAPTERS = 8000
 MAX_PAGE_BYTES = 8 * 1024 * 1024
 TIMEOUT = 20  # ek request ka timeout (sec)
 RETRIES = 5  # ek page ke liye network retries
